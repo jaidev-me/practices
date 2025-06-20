@@ -1,0 +1,22 @@
+  [
+    {
+      image:
+        "https://static.india.com/wp-content/uploads/2023/10/pkl-2023-s10-live-updates.jpg",
+      text: "LIVE UPDATES | Pro Kabaddi (PKL-10) 2023 Auction Day 2: Omkar More Sold to Telugu Titans",
+    },
+    {
+      image:
+        "https://images.news18.com/ibnlive/uploads/2023/06/idfc-first-bank-168735400816x9.png",
+      text: "IDFC First Bank Sells Office Premises In Mumbai's BKC For Rs 198 Crore",
+    },
+    {
+      image:
+        "https://www.hindustantimes.com/ht-img/img/2023/10/10/1600x900/PTI07-27-2023-000262A-0_1692792811346_1696923847648.jpg",
+      text: "Gill's World Cup spot in doubt as selectors to take call on his replacement",
+    },
+    {
+      image:
+        "https://www.livemint.com/lm-img/img/2023/10/10/1600x900/EM_1_1696925319401_1696925321754.png",
+      text: "Brain stroke could lead to 10 mn deaths in low-middle-income countries by 2050",
+    },
+  ];

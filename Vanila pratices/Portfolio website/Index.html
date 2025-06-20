@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaidev Singh</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div id="nav-box" class="nav-sticky">
+            <nav class="navbar" id="navbar">
+                <div class="left">
+                    Jaidev Singh
+                </div>
+                <div class="right">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#">Works</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="nav-container" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </nav>
+            <div id="nav-down">
+                <div class="nav-slide right">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#">Works</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="home" id="home">
+        <div class="home-left">
+            <span>Hi! my name is</span><span style="color:rgb(191, 191, 228);"> Jaidev</span>
+            <div>And</div>
+            <div class="running-text">I am a <span id="element" style="color: yellow;"></span></div>
+            <div class="home-left-icons">
+                <div class="social-icons"><a href=""><img src="images/instagram.png" alt="Instagram"></a></div>
+                <div class="social-icons"><a href=""><img src="images/github.png" alt="Github"></a></div>
+                <div class="social-icons"><a href=""><img src="images/linkedin.png" alt="Linkedin"></a></div>
+                <div class="social-icons"><a href=""><img src="images/youtube.png" alt="Youtube"></a></div>
+            </div>
+        </div>
+        <div class="home-right">
+            <img src="images\jaidev.png" alt="Jaidev">
+        </div>
+    </section>
+    <hr class="hr">
+    <section class="about" id="about">
+        <div class="side-heading">
+            <div class="side-border"></div>
+            <div class="heading-text">
+                <div></div>
+                <div class="heading-text-char">A</div>
+                <div class="heading-text-char">B</div>
+                <div class="heading-text-char">O</div>
+                <div class="heading-text-char">U</div>
+                <div class="heading-text-char">T</div>
+                <div class="space"></div>
+                <div class="heading-text-char">M</div>
+                <div class="heading-text-char">E</div>
+            </div>
+            <div class="side-border"></div>
+        </div>
+        <div class="about-things">
+            <div class="about-content">
+                <div>My name is Jaidev Singh and I am from Gajusar, Sardarsahar, Churu, Rajasthan. Currently I am
+                    persuing my BCA from Sardardahar</div>
+                <div>I am a Beginner level Coder. I can make Websites, Webapps, Python projects, ChatBots and much more.
+                </div>
+                <div>So How can I help you Buddy?</div>
+
+                <center><a href="#contact"><button href="" class="button">Let's Talk</button></a></center>
+            </div>
+            <div class="about-image">
+                <img src="images/jaidev2.jpeg" alt="Jaidev">
+            </div>
+        </div>
+    </section>
+    <hr class="hr">
+    <section class="contact" id="contact">
+        <center>
+            <h1>Contact US</h1>
+        </center>
+        <form action="" class="contact-form">
+            <input type="text" placeholder="Name" id="name">
+            <input type="number" placeholder="Phone Number" id="phone">
+            <input type="email" placeholder="Email ID" id="email">
+            <h4>Type your massage here:</h4>
+            <textarea id="textarea" placeholder="Massage"></textarea>
+            <div><button type="submit" class="button">Submit</button></div>
+
+        </form>
+    </section>
+
+    <footer>
+        <div class="footerlinks">
+            <a href="#">About</a> |<a href="#"> Contact US</a> |<a href="#"> Privacy Policy</a> |<a href="#"> Terms &
+                Conditions</a>
+        </div>
+        <div>Copyright &#169; Jaidev Singh. All rights reseverd</div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Designer', 'Web developer', 'Python Developer', 'Digital Marketer'],
+            typeSpeed: 50,
+            loop: true,
+            loopCount: Infinity,
+            backDelay: 1500,
+        });
+    </script>
+    <script src="main.js"></script>
+</body>
+
+</html>
